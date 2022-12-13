@@ -6,7 +6,7 @@ The background of this project was to demonstrate the following two facts in [th
  
 Refer to [Gym Documentation](https://www.gymlibrary.dev/environments/toy_text/taxi/) for "Taxi-v3" environment.
 
-Running <Value_Iteration.py> and <Policy_Iteration_NEW.py> will output the following results in common.
+Running <Value_Iteration.py> and <Policy_Iteration_NEW.py> will show the following results in common.
 1. Number of iterations required to converge to the optimal policy
 2. Optimal policy derived through reinforcement learning :   
    - Choosing an action out of 6 possible actions for 500 states in this "Taxi-v3" environment
@@ -16,11 +16,11 @@ Running <Value_Iteration.py> and <Policy_Iteration_NEW.py> will output the follo
    - Average number of timesteps per episode
 4. Illustration of an episode with optimal policy in Taxi-game
 
-You can check the following facts from the output results.
-1. The optimal policy derived from two algorithms is the same.
+You can check the following facts from the results.
+1. The optimal policies derived from two algorithms are the same.
 2. Optimal policy has improved performance significantly than using random policy in both algorithms.
-3. Trained taxi picks up and drop off passenger in the optimal path.
+3. Trained taxi picks up and drops off passengers in the optimal path.
 
-Regarding the number of iterations until the optimal policy converge :   
-In order to accurately calculate the number of iterations, I should have created a TOTAL_COUNTER variable and exchange it as a parameter in each module.
+Regarding the number of iterations required to converge to the optimal policy :     
+In order to accurately calculate the number of total iterations, I should have created a GLOBAL_COUNTER variable and exchanged it as a parameter in each module.
 In the next update, I will upload the modified code.
