@@ -10,7 +10,7 @@ Running <Value_Iteration.py> and <Policy_Iteration_NEW.py> will output the follo
 1. Number of iterations required to converge to the optimal policy
 2. Optimal policy derived through reinforcement learning :   
    - Choosing an action out of 6 possible actions for 500 states in this "Taxi-v3" environment
-3. Evaluation using random policy and optimal policy respectively :  
+3. Evaluation using random policy and optimal policy in both algorithms respectively :  
    - Number of successful episodes
    - Average number of penalties per episode
    - Average number of timesteps per episode
