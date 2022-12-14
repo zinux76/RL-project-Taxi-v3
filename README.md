@@ -22,5 +22,5 @@ You can check the following facts from the results.
 3. Trained taxi picks up and drops off passengers in the optimal path.
 
 Regarding the number of iterations required to converge to the optimal policy :     
-In order to accurately calculate the number of total iterations, I should have created a GLOBAL_COUNTER variable and exchanged it as a parameter in each module.
+In order to accurately calculate the number of total iterations, I should have created a GLOBAL_COUNTER variable and exchanged it as a parameter in individual functions.
 In the next update, I will upload the modified code.
